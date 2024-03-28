@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'IRANYekan';
+  font-weight: bold;
+  src: url('/fonts/iran-yekan/iranyekanwebbold.woff2');
+}
+
+@font-face {
+  font-family: 'IRANYekan';
+  font-weight: bolder;
+  src: url('/fonts/iran-yekan/iranyekanwebextrabold.woff');
+}
+
+@font-face {
+  font-family: 'IRANYekan';
+  font-weight: 500;
+  src: url('/fonts/iran-yekan/iranyekanwebmedium.woff');
+}
+
+@font-face {
+  font-family: 'IRANYekan';
+  font-weight: normal;
+  src: url('/fonts/iran-yekan/iranyekanwebregular.woff2');
+}
+
+button:not(.no-animation):active {
+  scale: 0.95;
+  transition-property: scale;
+  transition-duration: 200ms;
+}
+
+* {
+  font-family: 'Inter Variable', 'IRANYekan' !important;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  overflow-y: scroll;
+}
